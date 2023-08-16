@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="main" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="950.0" style="-fx-background-color: #212121;" styleClass="primary-color" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prj.dsproject.MonitorController">
+   <children>
+      <AnchorPane fx:id="receveur" layoutX="-5.0" layoutY="10.0" prefHeight="643.0" prefWidth="954.0" style="-fx-background-color: #212121;">
+         <children>
+            <AnchorPane layoutX="4.0" layoutY="52.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="383.0" prefWidth="850.0" styleClass="primary-color" stylesheets="@application.css">
+               <children>
+                  <ScrollPane layoutY="14.0" prefHeight="650.0" prefWidth="952.0" styleClass="primary-color" stylesheets="@application.css">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="742.0" prefWidth="942.0" style="-fx-background-color: #212121;" styleClass="primary-color" stylesheets="@application.css">
+                           <children>
+                              <HBox layoutY="-1.0" prefHeight="209.0" prefWidth="942.0">
+                                 <children>
+                                    <Pane prefHeight="361.0" prefWidth="936.0" style="-fx-background-color: #212121;">
+                                       <children>
+                                          <Label layoutY="-2.0" prefHeight="57.0" prefWidth="853.0" style="-fx-background-color: #212121;" text="MES CLIENTS" textFill="WHITE">
+                                             <font>
+                                                <Font name="System Bold" size="18.0" />
+                                             </font>
+                                             <padding>
+                                                <Insets left="30.0" />
+                                             </padding>
+                                          </Label>
+                                          <TableView fx:id="tabClient" layoutX="2.0" layoutY="55.0" prefHeight="597.0" prefWidth="932.0">
+                                            <columns>
+                                              <TableColumn fx:id="id" prefWidth="90.00001525878906" text="id user" />
+                                              <TableColumn fx:id="n_user" prefWidth="133.33331298828125" text="nom user" />
+                                                <TableColumn fx:id="p_user" prefWidth="136.66668701171875" text="prenom user" />
+                                                <TableColumn fx:id="m_user" prefWidth="184.0" text="mail user" />
+                                                <TableColumn fx:id="num_user" prefWidth="144.3333740234375" text="num user" />
+                                                <TableColumn fx:id="nSt" prefWidth="51.0" text="n°rue" />
+                                                <TableColumn fx:id="nmSt" prefWidth="189.0" text="nom rue" />
+                                            </columns>
+                                          </TableView>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <HBox layoutX="-1.0" layoutY="-2.0" prefHeight="69.0" prefWidth="950.0">
+         <children>
+            <Pane prefHeight="69.0" prefWidth="976.0" style="-fx-background-color: #212121;">
+               <children>
+                  <HBox layoutX="470.0" layoutY="14.0" prefHeight="45.0" prefWidth="415.0" styleClass="primary-color" stylesheets="@application.css">
+                     <children>
+                        <Button fx:id="btnMain" mnemonicParsing="false" onMouseClicked="#onClickMain" prefHeight="66.0" prefWidth="154.0" style="-fx-background-color: #212121;" styleClass="buttonh" stylesheets="@application.css" text="Accueil" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnUsers" mnemonicParsing="false" onMouseClicked="#onClickUsers" prefHeight="66.0" prefWidth="154.0" style="-fx-background-color: #212121;" styleClass="buttonh" stylesheets="@application.css" text="Utilisateurs" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnPlan" mnemonicParsing="false" onMouseClicked="#onClickPlan" prefHeight="66.0" prefWidth="154.0" style="-fx-background-color: #212121;" styleClass="buttonh" stylesheets="@application.css" text="Plannings" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="btnEval" mnemonicParsing="false" onMouseClicked="#onClickEval" prefHeight="66.0" prefWidth="154.0" style="-fx-background-color: #212121;" styleClass="buttonh" stylesheets="@application.css" text="Evaluation" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Button>
+                        
+                     </children>
+                  </HBox>
+                  <Label alignment="CENTER" layoutY="15.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="45.0" prefWidth="142.0" text="Driver" textFill="#fa631b">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                     <graphic>
+                        <Label prefHeight="45.0" prefWidth="59.0" text="School" textFill="#1b84fa">
+                           <font>
+                              <Font name="System Bold Italic" size="18.0" />
+                           </font>
+                           <padding>
+                              <Insets left="3.0" />
+                           </padding>
+                        </Label>
+                     </graphic>
+                  </Label>
+                  <ImageView fx:id="profil" fitHeight="38.0" fitWidth="43.0" layoutX="898.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/ppdef_madmin.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="190.0" layoutY="15.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="45.0" prefWidth="169.0" styleClass="white-border" stylesheets="@application.css" text="ESPACE MONITEUR" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/ppdef_madmin.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Pane>
+         </children>
+      </HBox>
+      <Separator layoutX="2.0" layoutY="67.0" prefHeight="17.0" prefWidth="950.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="prj.dsproject.RegController">
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="620.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane prefHeight="57.0" prefWidth="620.0" style="-fx-background-color: #000000;">
+            <children>
+                <Label layoutX="7.0" layoutY="14.0" text="Driver" textFill="#fa631b">
+                    <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                    </font>
+                </Label>
+                <Label layoutX="43.0" layoutY="14.0" text="School" textFill="#1b84fa">
+                    <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                    </font>
+                </Label>
+                <Button layoutX="493.0" layoutY="2.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="123.0" style="-fx-background-color: linear-gradient(#ff5c0a,#ff2b00);" text="Mon compte">
+                    <graphic>
+                        <ImageView fitHeight="26.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/User-Profile-PNG-Clipart.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutY="47.0" prefHeight="41.0" prefWidth="620.0" style="-fx-background-color: #676788;">
+            <children>
+                <Button layoutX="155.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: #676788;" text="Accueil" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+                <Button layoutX="238.0" layoutY="9.0" mnemonicParsing="false" style="-fx-background-color: #676788;" text="Plannings" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+                <Button layoutX="340.0" layoutY="9.0" mnemonicParsing="false" style="-fx-background-color: #676788;" text="Clients" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+                <Button layoutX="435.0" layoutY="9.0" mnemonicParsing="false" style="-fx-background-color: #676788;" text="Contact" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+      <Label layoutX="234.0" layoutY="97.0" text="Contactez-nous!" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextFlow layoutX="42.0" layoutY="127.0" prefHeight="42.0" prefWidth="538.0" textAlignment="CENTER">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Vous avez une question sur le contenu de nos formations, sur nos tarifs ou sur nos horaires ? Vous voulez des conseils personnalisés en fonction de votre situation ? Vous avez un imprévu ou souhaitez passer le permis rapidement ?" wrappingWidth="203.47006225585938">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+      <AnchorPane layoutX="50.0" layoutY="186.0" prefHeight="110.0" prefWidth="250.0" style="-fx-background-color: #444444;">
+         <children>
+            <Label layoutX="50.0" layoutY="5.0" text="Appelez-nous" textFill="#dbd9d9">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="28.0" text="Pendant nos horaires d’ouverture" textFill="WHITE" />
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="14.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/tel.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="50.0" layoutY="67.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="102.0" style="-fx-background-color: linear-gradient(#536ed8,#555eb2);" text="Appelez au 02.........." textFill="WHITE">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="325.0" layoutY="186.0" prefHeight="110.0" prefWidth="250.0" style="-fx-background-color: #444444;">
+         <children>
+            <Label layoutX="50.0" layoutY="5.0" text="Envoyez-nous un mail" textFill="#dbd9d9">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="14.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/msg.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="26.0" text="En utilisant le formulaire ci-dessous" textFill="WHITE" />
+            <Button layoutX="50.0" layoutY="67.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="102.0" style="-fx-background-color: linear-gradient(#536ed8,#555eb2);" text="Envoyer un message" textFill="WHITE">
+               <font>
+                  <Font size="8.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Line endX="49.66668701171875" layoutX="291.0" layoutY="124.0" startX="-12.33331298828125" stroke="#bc9d00" />
+    </children>
+</AnchorPane>
+</VBox>

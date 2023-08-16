@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1253.0" prefWidth="659.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane layoutX="-13.0" prefHeight="57.0" prefWidth="672.0" style="-fx-background-color: #212121;">
+            <children>
+                <Label layoutX="565.0" layoutY="6.0" text="Driver" textFill="#fa631b">
+                    <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                    </font>
+                </Label>
+                <Label layoutX="612.0" layoutY="8.0" text="School" textFill="#1b84fa">
+                    <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                    </font>
+                </Label>
+            </children></AnchorPane>
+      <AnchorPane layoutX="-13.0" layoutY="29.0" prefHeight="36.0" prefWidth="672.0" style="-fx-background-color: #676788;">
+         <children>
+            <Button layoutX="20.0" layoutY="4.0" style="-fx-background-color: #676788;" text="code de la route" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="130.0" layoutY="4.0" style="-fx-background-color: #676788;" text="Permis de conduire" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="260.0" layoutY="4.0" style="-fx-background-color: #676788;" text="Autres mobilités" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="375.0" layoutY="4.0" style="-fx-background-color: #676788;" text="Offres" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="435.0" layoutY="4.0" style="-fx-background-color: #676788;" text="Contact" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+          <Button layoutX="580.0" layoutY="4.0" minWidth="16.0" mnemonicParsing="false" prefHeight="0.0" style="-fx-background-color: #676788;" text="Connection" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-13.0" layoutY="65.0" prefHeight="317.0" prefWidth="672.0" style="-fx-background-color: linear-gradient(#ff5c0a,#ff2b00);">
+         <children>
+            <Label layoutX="21.0" layoutY="7.0" prefHeight="49.0" prefWidth="265.0" text="OFFRES EXEPTIONNELLES">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="21.0" layoutY="69.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+               <children>
+                  <Button layoutX="28.0" layoutY="146.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: linear-gradient(#536ed8,#555eb2);" text="Offre 1" />
+                  <Label layoutX="81.0" layoutY="14.0" text="Offre" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="28.0" layoutY="49.0" text="prix initial" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="28.0" layoutY="94.0" text="prix final" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Line endX="1.666656494140625" layoutX="113.0" layoutY="62.0" startX="-91.66665649414062" stroke="WHITE" strokeWidth="2.0" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="236.0" layoutY="69.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+               <children>
+                  <Button layoutX="28.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: linear-gradient(#536ed8,#555eb2);" text="Offre 2" />
+                  <Label layoutX="81.0" layoutY="14.0" text="Offre " textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="29.0" layoutY="54.0" text="prix initial" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="29.0" layoutY="100.0" text="prix final" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Line endX="1.666656494140625" layoutX="114.0" layoutY="67.0" startX="-91.66665649414062" stroke="WHITE" strokeWidth="2.0" />
+               </children></AnchorPane>
+            <AnchorPane layoutX="458.0" layoutY="69.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #212121;">
+               <children>
+                  <Button layoutX="25.0" layoutY="147.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: linear-gradient(#536ed8,#555eb2);" text="Offre 3" />
+                  <Label layoutX="78.0" layoutY="14.0" text="Offre " textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="100.0" text="prix" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="400.0" prefHeight="49.0" prefWidth="167.0" text="NOS VEHICULES">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="441.0" prefHeight="200.0" prefWidth="634.0" text="presentation des types de vehicules et leur caracteristique " />
+      <Label layoutX="14.0" layoutY="839.0" prefHeight="49.0" prefWidth="220.0" text="OÙ SOMMES NOUS ?">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

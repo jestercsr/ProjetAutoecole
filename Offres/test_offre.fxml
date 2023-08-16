@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Offres_controller">
+   <children>
+      <Button id="offre_1" fx:id="offres_1" layoutX="97.0" layoutY="324.0" mnemonicParsing="false" onAction="#ajouter" stylesheets="@application.css" text="Offre 1" />
+      <Button id="offre_2" fx:id="offres_2" layoutX="276.0" layoutY="324.0" mnemonicParsing="false" onAction="#ajouter" style="-fx-background-color: #ffffff;" stylesheets="@application.css" text="Offre 2" />
+      <Button id="offre_3" fx:id="offres_3" layoutX="454.0" layoutY="324.0" mnemonicParsing="false" onAction="#ajouter" style="-fx-background-color: #ffffff;" stylesheets="@application.css" text="Offre 3" />
+      <ImageView fitHeight="258.0" fitWidth="160.0" layoutX="231.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Offre_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="258.0" fitWidth="160.0" layoutX="52.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Offre_1.png" />
+         </image></ImageView>
+      <ImageView fitHeight="258.0" fitWidth="160.0" layoutX="409.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Offre_1.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label_etat" alignment="CENTER" layoutX="199.0" layoutY="405.0" prefHeight="111.0" prefWidth="209.0" stylesheets="@application.css" />
+   </children>
+</AnchorPane>

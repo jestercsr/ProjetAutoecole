@@ -1,0 +1,20 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.root{
+	-fx-background-color: #4d4d4d;
+}
+
+
+#offres_1{
+	-fx-background-color: #ffffff; 
+}
+#offres_2{
+	-fx-background-color: #ffffff; 
+}
+#offres_3{
+	-fx-background-color: #ffffff; 
+}
+#label_etat{
+	-fx-background-color: #a6ffbe;
+}

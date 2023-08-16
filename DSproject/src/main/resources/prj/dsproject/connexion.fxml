@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prj.dsproject.LogController">
+   <children>
+      <ImageView fitHeight="545.0" fitWidth="900.0" layoutX="134.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-size: contain; -fx-background-repeat: no-repeat; -fx-background-position: center;">
+         <image>
+            <Image url="@../img/Untitled.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="545.0" prefWidth="475.0" style="-fx-background-color: #212121;">
+         <children>
+            <Button fx:id="btnLogin" layoutX="181.0" layoutY="380.0" mnemonicParsing="false" onAction="#onClickLogin" prefHeight="35.0" prefWidth="125.0" style="-fx-background-color: #555fb2;" text="Valider" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Line endX="159.8888397216797" endY="-0.33351635932922363" layoutX="172.0" layoutY="207.0" startX="-93.33334350585938" stroke="WHITE" strokeWidth="1.1" AnchorPane.bottomAnchor="345.5" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="151.0" />
+            <Line endX="159.0" endY="0.08578640222549438" layoutX="165.0" layoutY="299.0" startX="-92.66665649414062" stroke="WHITE" AnchorPane.bottomAnchor="249.0" />
+            <Label layoutX="179.0" layoutY="14.0" text="Identifiez-vous" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="22.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/User-Profile-PNG-Clipart.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="22.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/29845.png" />
+               </image>
+            </ImageView>
+            <PasswordField fx:id="pf" layoutX="70.0" layoutY="251.0" prefHeight="43.0" prefWidth="254.0" promptText="mot de passe" style="-fx-background-color: #212121; -fx-prompt-text-fill: #6b6b6b; -fx-text-fill: #ffffff;" AnchorPane.bottomAnchor="251.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="151.0" AnchorPane.topAnchor="251.0">
+               <font>
+                  <Font size="14.0" />
+               </font></PasswordField>
+            <TextField fx:id="tfid" layoutX="131.0" layoutY="125.0" promptText="n° de tel ou email" style="-fx-background-color: #212121; -fx-prompt-text-fill: #6B6B6B; -fx-text-fill: #ffffff;" AnchorPane.bottomAnchor="350.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="151.0" AnchorPane.topAnchor="150.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btnReg" layoutX="659.0" layoutY="258.0" mnemonicParsing="false" onAction="#onClickReg" prefHeight="35.0" prefWidth="125.0" style="-fx-background-color: #ff3607;" text="Inscrivez-vous" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="639.0" layoutY="14.0" text="Toujours pas inscrit ?" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="666.0" layoutY="230.0" text="N'attendez plus !" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnReturn" layoutX="867.0" layoutY="28.0" mnemonicParsing="false" onMouseClicked="#OnClickReturn" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="469.0" AnchorPane.leftAnchor="873.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="33.0">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/retour.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+     </children>
+</AnchorPane>
